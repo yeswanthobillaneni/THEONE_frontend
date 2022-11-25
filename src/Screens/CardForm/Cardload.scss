@@ -1,0 +1,77 @@
+// .MuiSvgIcon-root {
+//     fill: #F3BA2F !important;
+// }
+
+// .MuiTablePagination-input {
+//     display: none !important;
+// }
+// .makeStyles-container-6 {
+//     max-height: 715px !important;
+// }
+// .MuiTableCell-body {
+//     color: #fff;
+//     background-color: black;
+// }
+
+.MuiTableCell-stickyHeader {
+  background-color: #2FC2D6 !important;
+  color: #fff !important;
+}
+.background-image-test23 {
+  height: 100% !important;
+}
+.background-image-test2{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top:40px;
+}
+#data-new {
+  height: 100% !important;
+}
+.card-load-sass {
+  padding: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  width: 210px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+
+@media screen and (min-width: 500px) {
+margin-right: 8%;
+}
+
+}
+.tablebody th,
+.tablebody td {
+  width: auto !important;
+}
+.head th,
+.head td {
+  width: auto !important;
+}
+
+
+@media screen and (max-width: 900px) {
+  .background-image-test2{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .table-res-mobile {
+    width: 310% !important;
+  }
+  .no-data{
+    margin-left:6vw !important;
+  }
+  .background-image-test2{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.tableRow{
+  background: linear-gradient(to right bottom ,rgba(74, 0, 106, 1),rgba(22, 57, 100, 1)), rgba(53, 85, 132, 0.45) !important;
+  color:'#fff'
+}

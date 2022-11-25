@@ -1,0 +1,178 @@
+.card-form-container {
+  background-color: #0e1e25;
+  overflow: auto;
+
+  button {
+    width: 400px;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .passport-container {
+    label {
+      color: white;
+    }
+
+    .dropzone {
+      text-align: center;
+      padding: 20px;
+      border: 3px dashed #eeeeee;
+      background-color: #fafafa;
+      color: #bdbdbd;
+      width: 400px;
+      margin-bottom: 20px;
+    }
+
+    .sigCanvas {
+      width: 400;
+      height: 200;
+      background-color: white;
+    }
+
+    .accept {
+      border-color: #107c10 !important;
+    }
+
+    .reject {
+      border-color: #d83b01 !important;
+    }
+  }
+}
+
+.card-form {
+ul{
+  display: block;
+}
+.react-tel-input .country-list{
+  margin: 38px 0 10px -1px;
+}
+  .form-control:disabled,
+  .form-control[readonly] {
+    background-color: #3c4043 !important;
+  }
+
+  ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+
+  input:hover {
+    color: white;
+  }
+
+  select {
+    option {
+      color: white;
+    }
+  }
+
+  .form-control-2 {
+
+    background: #110429 !important;
+  }
+
+  .form-control-4 {
+
+    background: #110429 !important;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  .form-control-3 {
+    margin-top: 4px;
+  }
+
+  // .new-relative input {
+  //   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="30"><text x="5" y="19"  class="caption" style="font: bold 16px Arial;color: white;">+65</text></svg>')
+  //     no-repeat !important;
+  // }
+
+}
+
+.caption {
+  color: white;
+}
+
+.note {
+  display: flex;
+  justify-content: end;
+  color: #d83b01;
+}
+
+.react-tel-input .form-control {
+  background-color: #110429 !important;
+  width: 100% !important;
+  margin-top: 9px !important;
+  // margin-bottom: 20px !important;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  height: 38px;
+}
+
+.react-tel-input .flag-dropdown {
+  background: none !important;
+  // border: 1px solid #fff !important;
+  border-radius: 7px 0 0 7px !important;
+}
+
+.react-tel-input .flag-dropdown.open .selected-flag {
+  background: none !important;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+  background: none !important;
+}
+
+.card-form-2 input:hover{
+color: black;
+}
+
+.text-red{
+  color:#ff2f2f;
+  font-size:12px;
+}
+
+.mobile-flex{
+  display: flex;
+  align-items: center;
+}
+
+.passimage{
+  width:40%;
+  height:200px;
+}
+
+@media screen and (max-width: 550px) {
+  .mobile-flex{
+    flex-direction: column-reverse;
+  }
+  .passimage{
+    width: 200px;
+    height:200px;
+  }
+}
+
+@media  (min-width:768px) and (max-width: 1200px) {
+  .mobile-flex{
+    flex-direction: column-reverse;
+  }
+  .passimage{
+    width: 200px;
+    height:200px;
+  }
+  .canvas-res{
+    width:200px !important;
+  }
+}

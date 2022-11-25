@@ -1,0 +1,32 @@
+.auth-container {
+  background-color: #0E1E25;
+  height: 100%;
+  width: 100%;
+  button {
+    width: 400px;
+  }
+  .heading{
+      font-size: 30px;
+  }
+}
+
+.accounts :hover{
+  color: #F3BA2F;
+  text-decoration: none;
+  cursor: pointer;
+}
+.forgotpass{
+  cursor: pointer;
+}
+.height-issue{
+  height: calc(100% - 4px) !important;
+
+}
+
+.form-control{
+  color: white !important;
+
+}
+.form-control:focus{
+  color: white !important;
+}

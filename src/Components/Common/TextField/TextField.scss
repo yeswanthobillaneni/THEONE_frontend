@@ -1,0 +1,15 @@
+.textfield-container {
+  label{
+    color: white;
+  }
+  .common-textfield {
+    width: 400px !important;
+    height: 43px;
+    border-radius: 10px;
+    background-color: #f5f5f5 !important;
+    outline: none;
+  }
+  .error-txt{
+    color: red;
+  }
+}

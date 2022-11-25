@@ -1,0 +1,225 @@
+ul {
+  display:flex;
+  top:0px;
+  z-index:10;
+  padding-bottom:14px;
+}
+li {
+  list-style:none;
+  flex:1;
+}
+li:last-child {
+  border-right:1px solid #DDD;
+}
+
+table { border-collapse:collapse; table-layout:fixed; width:100%; }
+th {  display:none; }
+
+td, th {
+  height:53px;
+}
+
+.padd{
+	margin-top: 75px !important;
+  margin-right: 70px !important;
+}
+td,th { border:1px solid #DDD !important; padding:10px; empty-cells:show; color:#fff; background: rgba(0,0,0,0.1); }
+
+td,th {
+  text-align:left;
+}
+td+td, th+th {
+  text-align:center;
+  display:none;
+}
+td.default {
+  display:table-cell;
+}
+.bg-purple {
+  border-top:3px solid #0E0E0E !important;
+}
+.bg-red {
+  border-top:3px solid #DDB345 !important;
+}
+.bg-blue {
+  border-top:3px solid #3C3E3D !important;
+}
+.bg-green {
+  border-top:3px solid #EAEBED !important;
+}
+.button {
+    width: 100%;
+    border: 1px solid #DDD;
+        border-top-color: rgb(221, 221, 221);
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: rgb(221, 221, 221);
+        border-right-style: solid;
+        border-right-width: 1px;
+    border-right: 0;
+    border-top: 0;
+    padding: 10px;
+    background: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    height: 60px;
+    color: #999;
+}
+.sep {
+ 
+  font-weight:bold;
+  color:#F3BA2F;
+}
+th {
+   color:#F3BA2F;
+}
+h1 {font-size: 48px; text-align:center; margin: 30px 0;}
+.txt-l { font-size:28px; font-weight:bold; }
+.txt-2 { font-size:18px; margin: 10px 0; }
+.txt-top { position:relative; top:-9px; left:-2px; }
+.tick { font-size:18px; color:#2CA01C; }
+.hide {
+  border:0 !important;
+  background:none;
+}
+
+@media (min-width: 640px) {
+  ul {
+    display:none;
+  }
+  td,th {
+    display:table-cell !important;
+  }
+  td,th {
+    width: 330px;
+
+  }
+  td+td, th+th {
+    width: auto;
+  }
+}
+.ptext {
+    font-size: 13px;
+    margin-top: 12px;
+	color : #fff;
+}
+td:first-child { font-weight:bold;    overflow: auto}; 
+
+
+.logoimgcon{
+  width:450px;
+  height: 450px;
+
+}
+
+.logoimg{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width:500px) {
+   .mob-head{
+    font-size: 35px !important;
+   }
+   .mob-wid{
+    width: 100%;
+   }
+}
+
+.bg-black{
+  background-color: #000 !important;
+}
+
+
+.cardoverlay{
+  width:91%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:#444;
+  opacity:0.6;
+  position:absolute;
+  top:0;
+  right:0;
+  border-radius:10px;
+}
+
+.cardoverlay1{
+  width:88%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:#444;
+  opacity:0.6;
+  position:absolute;
+  top:0;
+  left:0;
+  border-radius:10px;
+}
+
+@media (min-width:250px) and (max-width:375px) {
+.cardoverlay{
+  width: 79%;
+}
+.cardoverlay1{
+  width: 74%;
+}
+}
+
+@media (min-width:375px) and (max-width:425px) {
+.cardoverlay{
+  width: 83%;
+}
+.cardoverlay1{
+  width: 78%;
+}
+}
+
+@media (min-width:425px) and (max-width:550px) {
+.cardoverlay{
+  width: 86%;
+}
+.cardoverlay1{
+  width: 82%;
+}
+}
+
+@media (min-width:1200px) and (max-width:1440px) {
+.cardoverlay{
+  width: 89%;
+}
+.cardoverlay1{
+  width: 86%;
+}
+}
+
+@media (min-width:900px) and (max-width:1200px) {
+.cardoverlay{
+  width: 87%;
+}
+.cardoverlay1{
+  width: 83%;
+}
+}
+
+@media (min-width:768px) and (max-width:900px) {
+.cardoverlay{
+  width: 86%;
+}
+.cardoverlay1{
+  width: 81%;
+}
+}
+
+@media (min-width:550px) and (max-width:768px) {
+.cardoverlay{
+  width: 91%;
+}
+.cardoverlay1{
+  width: 88%;
+}
+}
+

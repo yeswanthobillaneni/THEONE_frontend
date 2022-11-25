@@ -1,0 +1,123 @@
+.sticky-header-container {
+  height: 70px;
+}
+
+.Nbtn2 {
+  background: #f7f7f7;
+  color: #00151e;
+  font-weight: 700;
+  width: 115px;
+  border: none;
+  text-align: center;
+}
+
+.Nbtn1 {
+  border: 1.5px solid #ffffff !important;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+}
+
+.header-new {
+  li:last-child {
+    border: none;
+  }
+}
+
+.navigator-container {
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .selected {
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+}
+
+.nav-link {
+  cursor: pointer;
+  
+}
+.active1{
+  color:rgb(145, 12, 207) !important;
+  border-bottom: 5px solid #fff;
+}
+
+.navbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-brand {
+  cursor: pointer;
+}
+
+@media (max-width: 575px) {
+  .custom {
+    display: none;
+  }
+}
+
+@media (max-width: 530px) {
+  .mobile-styles {
+    width: 175px;
+    float: right;
+    margin: 0 !important;
+  }
+
+  .first-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .container-fluid {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+.chainbutton {
+  border: 0.704301px solid #ffffff;
+  border-radius: 4.22581px;
+  cursor: pointer;
+  font-family: Sofia Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 13px;
+  padding: 10px 50px;
+  text-align: center;
+  text-transform: capitalize;
+  width: 100%;
+    color: #67748e;
+}
+
+.absolute-container {
+  background: #110429;
+  display: flex;
+  flex-direction: column;
+  width: 129px;
+  top: 41px;
+  color:white;
+  padding-left: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+  span{
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+}
+.padded{
+  margin:22px;
+}

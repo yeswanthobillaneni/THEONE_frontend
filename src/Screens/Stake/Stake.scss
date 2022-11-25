@@ -1,0 +1,126 @@
+.span-txt {
+  text-align: center;
+  font-size: 20px;
+}
+.new-data {
+  #overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    border-radius: 2rem;
+  }
+  .container {
+    .color-head {
+      font-weight: 700;
+      font-size: 48px;
+    }
+    max-width: 1420px;
+  }
+}
+.new-btn {
+  .btn {
+    line-height: 18px !important;
+  }
+}
+.reduce_opacity {
+  opacity: 0.3;
+}
+.stakebtns{
+  background-color: #fff !important;
+  color: #000 !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  border-radius: 61px !important;
+  width: 275px !important;
+  height: 61px !important;
+  margin-top: 48px !important;
+  margin-bottom: 25px !important;
+
+  @media screen and (max-width: 1200px) {
+   width: 100% !important;
+   font-size: 18px !important;
+   height: 50px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+.stakebtns1{
+  background-color: #fff !important;
+  color: #000 !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  border-radius: 30px !important;
+  width: 150px;
+  height: 50px;
+
+
+  @media screen and (max-width: 1200px) {
+   width: 100% !important;
+   font-size: 18px !important;
+   height: 50px !important;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+.color-head{
+  text-align:center;
+}
+}
+
+
+.f-sol{
+  background: -webkit-linear-gradient(rgba(210, 163, 248, 1),
+  rgba(108, 13, 186, 0.69));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 350px) and (max-width:1200px) {
+ .stakebtns{
+  width: 250px !important;
+ }
+
+ .stakebtns1{
+  width: 250px !important;
+ }
+}
+
+.cardtype{
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: #fff !important;
+  align-self: flex-start;
+  padding-left: 5px;
+
+@media screen and (max-width: 1200px) {
+  font-size: 14px !important;
+ align-self: center;
+}
+}
+
+@media screen and (max-width: 1200px) {
+.mob-row{
+  flex-direction: column;
+}
+.mobcol2{
+
+  width: 250px !important;
+}
+
+}

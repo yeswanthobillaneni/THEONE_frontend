@@ -1,0 +1,18 @@
+
+.mobile-res-container{
+    justify-content: space-between !important;
+}
+.custom-data-class{
+    justify-content: space-between;
+}
+@media screen and (max-width: 550px) {
+.mobile-responsive-image{
+    width:100%;
+}
+.custom-data-class{
+    justify-content: center;
+}
+.mobile-res-container{
+    justify-content: center !important;
+}
+}
